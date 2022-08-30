@@ -1,0 +1,27 @@
+{
+  "name": "loopstudios",
+  "version": "1.0.0",
+  "description": "Project made using Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlzyWelzy/loopstudios.git"
+  },
+  "keywords": [
+    "loopstudios",
+    "TailwindCSS"
+  ],
+  "author": "AlzyWelzy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlzyWelzy/loopstudios/issues"
+  },
+  "homepage": "https://github.com/AlzyWelzy/loopstudios#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
